@@ -1,0 +1,45 @@
+.componenteTitle{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 3px;
+}
+.title{
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(0, 0, 0, 0.466);
+    font-weight:600;
+}
+
+.titleComponent article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-weight:700;
+}
+.titleComponent .titleText{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: end;
+    padding: 0px 10px;
+}
+
+.arrow{
+    height: 3vh;
+}
+
+.titleText li{
+    text-decoration: none;
+    list-style: none;
+    font-weight:600;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.titleText li:hover{
+    color: rgba(0, 0, 0, 0.445);
+}

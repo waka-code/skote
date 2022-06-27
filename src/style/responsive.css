@@ -1,0 +1,162 @@
+@media (max-width: 1100px){
+   
+    .Nav_componentes{
+        width: 78.5vw;
+    }
+
+    .menuVertical{
+        margin-left:79% ;
+    }
+    .menuVertical h2{
+        font-size: 20px;
+    }
+    .listado button{
+        height: 5vh;
+        width: 20%;
+    }
+
+    .welcomeDasboard{
+        height: 41vh;
+     }
+
+     .search_imput{
+       display: none;
+    }
+
+
+}
+
+@media (max-width: 1000px){
+    .menu{
+        display: block;
+        margin-left: 5px;
+        height: 5vh;
+        cursor: pointer;
+    }
+
+    .boxBox{
+        flex-direction: column-reverse;
+    }
+    .Nav_componentes{
+        width: 100vw;
+    }
+
+    .graphica{
+        width: 98vw;
+    }
+
+    .boxHeader{
+        width: 100vw;
+    }
+
+    .headerRithg{
+        display: flex;
+        width: 100%;
+     }
+
+     .welcomeDasboard{
+        width: 100vw;
+     }
+     
+    .dasboards{
+        width: 100%;
+    }
+    .contenedor_header{
+        width: 100vw;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    .menuVertical{
+        left:-3%;
+        top:12%;
+       
+    }
+    .menuVertical2{
+        left: 100%;
+        }
+        
+}
+
+@media (max-width: 900px){
+
+    .menuVertical{
+        margin-left: 75%;
+    }
+    
+}
+@media (max-width: 800px){
+
+    .menuVertical{
+        margin-left: 70%;
+    }
+
+    .headerRithg{
+        display: flex;
+        flex-direction: column;
+     }
+     .welcomeDasboard{
+        width: 90vw;
+        margin: 2% auto;
+        justify-content: space-around;
+     }
+     .boxHeader{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .headerBox{
+        width: 100%;
+    }
+
+    .boxAverage{
+        width: 90vw;
+        margin:2% auto;
+        justify-content: space-around;
+    }
+
+    .graphica{
+        margin: 0 7px;
+    }
+
+    .viewTitle{
+        font-size: 13.5px;
+    }
+    .listado p{
+        font-size: 13px;
+    }
+    
+}
+
+@media (max-width: 700px){
+    .listado {
+        flex-direction: column-reverse;
+    }
+
+    .listado button{
+        width: 30%;
+        height: 5vh;
+    }
+    .name_p{
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 600px){
+    .imagen{
+        height: 3vh;
+        margin-left: 10px;
+        
+    }
+    .menu{
+        margin-left: 2px;
+        height: 3vh;
+    }
+
+    .usuario{
+        height: 4vh;
+        margin-left: 10px;
+    }
+}

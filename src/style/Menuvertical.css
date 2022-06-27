@@ -1,0 +1,23 @@
+.menuVertical{
+    background-color: #e9e8e8;
+    height: 100%;
+     box-shadow: 15px 15px 30px rgba(129, 129, 129, 0.822),
+     -10px -10px 35px rgba(235, 235, 235, 0.486);
+     margin-left: 80.7%;
+     position: fixed;
+     z-index: 999999999;
+     overflow: auto;
+}
+
+.menuversecc{
+    height: auto;
+}
+.menuVertical h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 60.5px;
+    padding: 10px;
+    font-size: 28px;
+}
+

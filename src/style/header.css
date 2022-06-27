@@ -1,0 +1,33 @@
+.boxAverage{   
+   box-shadow: 15px 15px 30px rgb(187, 187, 187),
+   -10px -10px 35px #fff;
+   background-color: #e9e8e8;
+}
+
+.headerBox{
+    width: 35%;
+    padding: 10px;
+}
+
+.boxHeader{
+    display: flex;
+    flex: 1 1;
+    align-items: center;
+    text-align: center;
+}
+
+.boxAverage{
+    display: flex;
+    border-radius: 5px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.imgBox{
+     padding: 10px;
+     background-color: rgb(80, 117, 218);
+     border-radius: 100px;
+ }
+
+
+ 

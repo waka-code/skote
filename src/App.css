@@ -1,38 +1,463 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e9e8e8ad;
+    user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body a {
+    list-style: none;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.dasboards{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 14px;
+    width: 77.3vw;
+    margin-top: 70px;
 }
 
-.App-link {
-  color: #61dafb;
+.contenedor_header{
+    width: 78vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxBox{
+    display: flex;
+}
+.headerLeft{
+    width: 55vw;
+}
+
+.headerRithg{
+    width: 45vw;
+ }
+
+    
+.graphica{
+    box-shadow: 15px 15px 30px rgba(109, 109, 109, 0.589),
+   -10px -10px 35px #fff;
+    background-color: #e9e8e8;
+    height: 65.2%;
+    width: 50vw;
+    margin: 10px;
+}
+
+
+ /*welcomeDasboard*/
+
+ .welcomeDasboard{
+    display: flex;
+    justify-content: space-between;
+    height: 36vh;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 15px 15px 30px rgba(109, 109, 109, 0.589),
+    -10px -10px 35px #fff;
+   background-color: #e9e8e8;
+ }
+ .welcomeDasboard section p{
+    line-height: 30px;
+    font-weight: 500;
+ }
+
+ .welcomeDasboard section button{
+    width: 100%;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(71, 86, 218, 0.795);
+    color: #fff;
+    cursor: pointer;
+    margin-right: 25px;
+ }
+ .welcomeDasboard section button:hover{
+      background-color: rgb(84, 56, 209);
+ }
+
+ .btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+ }
+ .welcomeDasboard section img{
+    border-radius: 100px;
+    height: 15vh;
+    border: 1px solid black;
+ }
+
+.Latestransaction{
+    box-shadow: 15px 15px 30px rgba(109, 109, 109, 0.589),
+   -10px -10px 35px #fff;
+   background-color: #e9e8e8;
+   width: 98.2%;
+   margin: 10px;
+}
+.Latestransaction section{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Latestransaction section p{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+
+.viewTitle{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 15px 15px 30px rgba(196, 196, 196, 0.63),
+    -10px -10px 35px rgb(243, 243, 243);
+}
+
+.listado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listado button{
+    width: 10%;
+    height: 4vh;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(109, 109, 202);
+    cursor: pointer;
+}
+
+.listado button:hover{
+    background-color: rgb(77, 77, 189);
+}
+/*progresebar*/
+.contenedorProgressBar{
+    margin-bottom: 20px;
+    height: 60px;
+    width: 90%;
+    z-index: 51;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.progressText{
+    text-align: center;
+    display: grid;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.548);
+}
+
+.opiciones2{
+    right: 120%;
+    position: fixed;
+    transition: all 0.3s ease;
+    height:100%;
+    width: 20%;
+    background-color: #e9e8e8;
+    overflow: auto;
+    z-index: 9999999999;
+    box-shadow: 15px 15px 30px #aaaaaa,
+    -10px -10px 35px #e9e8e8;
+    padding: 5px;
+    
+}
+
+.opciones2{
+    right: 79.8%;   
+}
+
+.SecOpcion .clo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SecOpcion .clo p{
+    padding-top: 15px;
+    font-weight: 500;
+    color: #000000a8;
+    font-size: 20px;
+}
+
+.Layouts p{
+    text-align: center;
+    font-weight: 500;
+    color: #000000a8;
+}
+
+.close{
+    cursor: pointer;
+    height: 4vh;
+}
+
+
+/*InfoUsuario*/
+
+
+.information{
+    position: fixed;
+    background-color: #ececec;
+    top:10.5%;
+    width: 12%;
+    right: 85%;
+    font-size: 13px; 
+    border:1px solid #c7c7c7;
+    border-radius: 10px;
+    z-index: 9999999999;
+    box-shadow: 15px 15px 30px #aaaaaa,
+    -10px -10px 35px #e9e8e8;
+}
+
+.information2{
+    right: 110%;
+}
+
+.information p{
+    padding: 1px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #5e5b5bbb;
+}
+
+.information p:hover{
+    background-color: #d4d0d0;
+}
+.information p img{
+     padding-left: 10px;
+     height: 3vh;
+}
+
+.information
+.logout{
+    color: #ff1b1bcc;
+}
+
+.information
+.check{
+    color: #3ce25281;
+}
+
+/*Notificacion*/
+
+.Not{
+    position: fixed;
+    right: 60%;
+    top:10.5%;
+    width: 25%;
+    height: auto;
+    font-size: 13px; 
+    border:1px solid #c7c7c7;
+    border-radius: 10px;
+    z-index: 9999999999;
+    box-shadow: 15px 15px 30px #aaaaaa,
+    -10px -10px 35px #e9e8e8;
+    color: #5e5b5bbb;
+}
+
+.Not2{
+    right: 130%;
+    background-color: #ececec;
+}
+
+.view1{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.view1 a{
+    color: #210e91;
+    cursor: pointer;
+ }
+
+.view1 a:hover{
+    color:rgba(199, 199, 199, 0.493)1;
+}
+
+.view1 p{
+    font-size: 15px;
+    font-weight: 500;
+ }
+
+.view{
+   text-align: center;
+}
+
+
+.view a{
+    color: #210e91;
+    cursor: pointer;
+    
+ }
+
+.view a:hover{
+    color:rgba(199, 199, 199, 0.493)1;
+}
+
+/*Menuvercomponent*/
+.mega{
+    position: fixed;
+    top:11.5%;
+    right: 5%;
+    font-size: 13px; 
+    border:1px solid #c7c7c7;
+    border-radius: 10px;
+    z-index: 9999999999;
+    box-shadow: 15px 15px 30px #aaaaaa,
+    -10px -10px 35px #e9e8e8;
+    color: #5e5b5bbb;
+    background-color: #ececec;
+    line-height: 30px;
+
+}
+
+.mega2{
+    right: 120%;
+    background-color: #ececec;
+}
+
+ .megaImg {
+    width: 40vh;
+ }
+
+ .megaImg img{
+    width: 100%;
+    height: 30vh;
+ }
+
+ .megaText{
+    display: flex;
+    width: 100vh;
+    justify-content: space-around;
+ }
+
+ .megaText
+ .componenteTitle
+ img{
+   visibility: hidden;
+ }
+ 
+ .megaText
+.componenteTitle
+.title{
+    font-size: 15px;
+}
+
+/*articulo*/
+.articulo{
+    position: fixed;
+    top:.1%;
+    top: 0%;
+    width: 50%;
+    margin: 200px 25%;
+    font-size: 13px; 
+    border:1px solid #c7c7c7;
+    border-radius: 10px;
+    z-index: 9999999999;
+    box-shadow: 15px 15px 30px #aaaaaa,
+    -10px -10px 35px #e9e8e8;
+    color: #5e5b5bbb;
+    background-color: #ececec;
+    line-height: 20px;
+    padding: 10px;
+    transition: all 0.5s ease;
+
+}
+
+.articulo2{
+    top: 100%;
+    background-color: #ececec;
+}
+
+.arti .keyss{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.order{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    color: #818181;
+    font-size: 15px;
+}
+
+.order img{
+   cursor: pointer;
+}
+
+.btnclose{
+    width: 10%;
+}
+
+.produc article{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    color: #818181;
+    font-size: 15px;
+}
+
+.pro p{
+    margin-right: 20px;
+}
+.ProductosOrder{
+    text-align: center;
+}
+.btnclose button{
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    background-color: #818181;
+}
+
+.btnclose button:active{
+    color: #fff;
+    transform: scale(0.8);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: 500;
+    width: 79.5vw;
+    color: #7a7a7ad0;
+}
+
+/*firebase*/
+.firebase{
+position: fixed;
+top: 100%;
+margin: 200px 25%;
+font-size: 13px; 
+border:1px solid #c7c7c7;
+border-radius: 10px;
+z-index: 9999999999;
+box-shadow: 15px 15px 30px #aaaaaa,
+-10px -10px 35px #e9e8e8;
+color: #5e5b5bbb;
+background-color: #ececec;
+padding: 15px;
+}
+
+.firebase2{
+    top: 0%;
 }

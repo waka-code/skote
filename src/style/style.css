@@ -1,0 +1,86 @@
+.Nav_componentes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    flex:1 1;
+    width: 79.5vw;
+    background-color: #e9e8e8;
+    box-shadow: 15px 15px 30px #d3d3d3e3,
+    -10px -10px 35px #0f0f0f34;
+}
+
+.Nav_bordeIzquierdo{
+    display: flex;
+    flex:1;
+    align-items: center;
+    padding: 5px;
+}
+
+.nav_article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.arrow:active{
+    transform: scale(0.8);
+}
+
+.imagen{
+    height: 3.5vh;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+.usuario{
+    border-radius: 100px;
+    height: 5vh;
+    margin-left: 20px;
+}
+
+.name_p{
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-top: 15px;
+}
+.Nav_bordedDerecho{
+    display: flex;
+    flex:1;
+    justify-content: flex-end;
+    padding: 5px;
+    align-items: center;
+    height: 9.5vh;
+}
+
+.megamenu{
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.search_imput:focus{
+    outline: 1.5px dashed #4653c7;
+}
+
+.search_imput{
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #d4d4d44f;
+}
+
+.menu{
+    display: none;
+    margin-left: 5px;
+    height: 5vh;
+    cursor: pointer;
+}
