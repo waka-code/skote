@@ -10,7 +10,7 @@ function Megamenu(props){
             </section>
             <section className="megaText">
             <Menuvercomponent
-             title='UI Components'
+             title='UI'
              name='Lightbox'
              titleli='Rating'
              titlelii='Forms'
@@ -20,8 +20,8 @@ function Megamenu(props){
 
             <Menuvercomponent
              title='Extra Pages'
-             name='Light Sidebar'
-             titleli='Horizontal layout'
+             name='Sidebar'
+             titleli='layout'
              titlelii='FAQs'
              titleliii='Timeline'
              titleliiii='Maintenance'
@@ -37,7 +37,7 @@ function Megamenu(props){
           />
 
             <Menuvercomponent
-             title='UI Components'
+             title='Components'
              name='Lightbox'
              titleli='Rating'
              titlelii='Forms'

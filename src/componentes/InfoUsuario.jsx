@@ -14,8 +14,8 @@ function InfoUsuario(){
     return(
        <div className="info info2">
           <p><img src={user} alt="" />Profile</p>
-          <p><img src={wallet} alt="" />My Wallet</p>
-          <p><img src={lock} alt="" />Lock screen</p>
+          <p><img src={wallet} alt="" />Wallet</p>
+          <p><img src={lock} alt="" />Lock</p>
           <p className="check" onClick={checkk}><img src={check} alt=""/>Login</p>
           <p className="logout"><img src={xseccion} alt="" />Loguot</p>
        </div>
