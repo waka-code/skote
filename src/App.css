@@ -252,7 +252,7 @@ body a {
     position: fixed;
     right: 60%;
     top:10.5%;
-    width: 25vw;
+    width: 35vw;
     height: auto;
     font-size: 13px; 
     border:1px solid #c7c7c7;
@@ -306,8 +306,9 @@ body a {
 /*Menuvercomponent*/
 .mega{
     position: fixed;
-    top:11.5%;
+    top:11.2%;
     right: 5%;
+    width: 80vw;
     font-size: 13px; 
     border:1px solid #c7c7c7;
     border-radius: 10px;
@@ -321,7 +322,7 @@ body a {
 }
 
 .mega2{
-    right: 340%;
+    right: 250%;
     background-color: #ececec;
 }
 
